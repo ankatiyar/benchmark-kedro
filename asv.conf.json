@@ -3,12 +3,13 @@
 
     "project": "project",
 
-    "repo": "http://github.com/ankatiyar/kedro.git",
+    "repo": "https://github.com/ankatiyar/kedro.git",
 
     "project_url": "http://project-homepage.org/",
 
     "show_commit_url": "http://github.com/ankatiyar/kedro/commit/",
 
+    "branches": ["main"],
     
     "results_dir": ".asv/results",
 
