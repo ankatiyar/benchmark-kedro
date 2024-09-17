@@ -1,0 +1,14 @@
+{
+    "version": 1,
+
+    "project": "project",
+
+    "project_url": "http://project-homepage.org/",
+
+    "show_commit_url": "http://github.com/ankatiyar/kedro/commit/",
+
+    
+    "results_dir": ".asv/results",
+
+    "html_dir": ".asv/html"
+}

@@ -20,6 +20,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Set up asv 
+        run: |
+          pip install asv
+          asv publish --config asv.conf.json 
+
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
