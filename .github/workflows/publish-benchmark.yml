@@ -1,4 +1,4 @@
-name: ASV Benchmark
+name: Publish results as github pages
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
 
 jobs:
 
-  benchmark:
+  publish:
     permissions:
       contents: write
       pages: write
